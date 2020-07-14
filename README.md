@@ -1,7 +1,5 @@
 ### Запуск приложения
-- `docker-compose up -d`
-- `docker-compose run --rm composer install`
-- `docker-compose run --rm php php artisan migrate`
+- `./init.sh`
 
 ### Запуск тестов
 - `docker-compose run --rm php ./vendor/bin/pest --coverage`
